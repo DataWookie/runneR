@@ -1,0 +1,10 @@
+events.csv contains
+
+a 1417476 x 5 csv table with rows = eventss, columns =
+1      athlete ID - numeric - consistent with athletes.csv
+2      event type - factor - an integer between 1 (100 m) and 10 (Marathon)
+3      running distance - numeric - the distance in m corresponding to 2
+4      performance - numeric - running time in seconds
+5      date of event - string - format "[%Y %M %D]"
+
+Source: converted from ALL_PERFORMANCES.mat to csv by convert_events2csv.m

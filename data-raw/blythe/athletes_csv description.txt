@@ -1,0 +1,8 @@
+athletes.csv contains
+
+a 164746 x 3 csv table with rows = athletes, columns =
+1      athlete ID - numeric - equal to row number
+2      gender - string - "Male" or "Female"
+3      date of birth - string - format "[%Y %M %D]"
+
+Source: converted from ALL_PERFORMANCES.mat to csv by convert_athletes2csv.m
